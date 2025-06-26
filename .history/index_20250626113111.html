@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Buzz Room - Maître du jeu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Main</h1>
+
+    <div id="main-box">
+      <p id="leaderText">Aucun joueur n’a buzzé</p>
+    </div>
+
+    <div class="buttons">
+      <button onclick="handleReset()">Nouveau Jeu</button>
+      <button onclick="handleValidate()">Gagné</button>
+      <button onclick="handleBuzz()">Perdu</button>
+    </div>
+
+    <div class="scores">
+      <h2>Scores</h2>
+      <ul id="scoreList"></ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

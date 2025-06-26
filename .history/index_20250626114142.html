@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Buzz Room - Maître du jeu</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="card">
+    <h1>Qui a la main ?</h1>
+
+    <div id="main-box">
+      <p>En attente d'une réponse...</p>
+    </div>
+
+    <div class="buttons">
+      <button class="new" onclick="handleReset()">🔄 Nouveau Jeu</button>
+      <button class="success" onclick="handleValidate()">✅ Gagné</button>
+      <button class="fail" onclick="handleBuzz()">❌ Perdu</button>
+    </div>
+
+    <div class="scores">
+      <h2>Classement</h2>
+      <ul id="scoreList"></ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
