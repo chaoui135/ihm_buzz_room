@@ -1,6 +1,7 @@
+const API_BASE = "http://xxx";
 const API_BASE = "http://localhost:8080";
 
-
+ // ← Remplacer par l'adresse réelle de ton backend
 const DEFAULT_ID = 0;
 
 // 🔄 Récupération des scores
